@@ -1,0 +1,15 @@
+services:
+  lti:
+    build: ./lti-mvp
+    container_name: lti
+    ports:
+      - "8000:8000"
+    depends_on:
+      - vulnerable
+
+  vulnerable:
+    build: ./vulnerable
+    container_name: vulnerable
+    ports:
+      - "5000:5000"
+

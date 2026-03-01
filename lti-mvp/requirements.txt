@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+PyLTI1p3==2.0.0
+jwcrypto
+pyjwt
+requests
+

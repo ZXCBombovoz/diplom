@@ -1,0 +1,11 @@
+{
+  "https://moodle.local": {
+    "client_id": "CLIENT_ID_ИЗ_MOODLE",
+    "auth_login_url": "https://moodle.local/mod/lti/auth.php",
+    "auth_token_url": "https://moodle.local/mod/lti/token.php",
+    "key_set_url": "https://moodle.local/mod/lti/certs.php",
+    "private_key_file": "private.key",
+    "deployment_ids": ["DEPLOYMENT_ID"]
+  }
+}
+
