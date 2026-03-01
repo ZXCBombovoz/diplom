@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>A01 - Secure Version</h2>
+
+<form method="post">
+    <input type="number" name="course_id" placeholder="Enter course ID" required>
+    <button type="submit">Access Course</button>
+</form>
+
+{% if result %}
+<hr>
+<div class="result">{{ result }}</div>
+{% endif %}
+
+<a href="/dashboard">Back</a>
+{% endblock %}

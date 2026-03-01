@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome User {{ user_id }}</h2>
+
+<h3>Laboratory Works</h3>
+
+<ul>
+    <li><a href="/a01">A01 - Broken Access Control (Vulnerable)</a></li>
+    <li><a href="/a01/secure">A01 - Fixed Version</a></li>
+</ul>
+
+<a href="/logout">Logout</a>
+{% endblock %}
